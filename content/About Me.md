@@ -7,28 +7,28 @@ cssclasses:
   - no-meta
 ---
 
-I’m Kostandin, a software engineer and tech enthusiast based in Tirana, Albania. I am passionate about startups regarding:
+I’m Kostandin, a software engineer and tech enthusiast from Tirana, Albania. My passions lie in startups focused on:
 
 - Productivity
 - Developer Tools
 - Artificial Intelligence
 
-In my free time I enjoy reading and creating music.
+When I’m not working, I enjoy reading and making music
 
-### Stuff I embrace:
+%% ### I embrace:
 
 - **Minimalism**
-  - I believe in the power of simplicity, both in life and in code. Stripping away the unnecessary allows me to focus on what truly matter.
+  - I believe in the strength of simplicity. By removing the unnecessary, I can focus on what truly matters.
 - **Creativity**
-  - Fuels my approach to problem-solving. I’m always looking for innovative ways to tackle challenge.
+  - It drives my approach to problem-solving. I’m constantly seeking innovative ways to overcome challenges.
 - **Continuous Learning**
-  - Committed to lifelong learning, always seeking to expand my knowledge and skills. Whether it’s exploring new technologies or diving into a good book.
+  - Dedicated to lifelong learning, I’m always eager to expand my knowledge and skills—whether it’s exploring new technologies or getting lost in a good concept. %%
 
-You can reach out to me via my [personal email](mailto:kostandinangjellari@gmail.com) or [[Contacts|Other contacts]].
+You can reach out to me via my [personal email](mailto:kostandinangjellari@gmail.com) or [[Contacts|the links here]].
 
-### Stuff I work on
+%% ### Stuff I work on
 
-...
+... %%
 
 ---
 
