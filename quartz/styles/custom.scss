@@ -18,3 +18,21 @@ h1.page-title {
   font-size: 12px;
 
 }
+
+.no-meta p.content-meta {
+  display: none !important;
+}
+
+.no-meta .article-title {
+  display: none;
+}
+
+
+.img-article img {
+  width: auto;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  height: 500px;
+  padding: 25px;
+}

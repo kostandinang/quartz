@@ -18,7 +18,9 @@ export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
-    Component.ContentMeta(),
+    Component.ContentMeta({
+      showReadingTime: false,
+    }),
     Component.TagList(),
   ],
   left: [
@@ -26,10 +28,21 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(
+      Component.Explorer({
+        filterFn(node) {
+          return node.name !== "Resume"
+        },
+      }),
+    ),
   ],
   right: [
-    Component.Graph(),
+    Component.Graph({
+      globalGraph: {
+        zoom: true,
+      },
+      localGraph: {},
+    }),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],

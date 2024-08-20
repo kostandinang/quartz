@@ -9,18 +9,40 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "blog.kostand.in",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
       typography: {
-        header: "Noto Sans",
-        body: "Noto Sans",
+        // header: "Poppins",
+        // body: "Poppins",
+        header: "Montserrat",
+        body: "Montserrat",
         // header: "IBM Plex Mono",
         // body: "IBM Plex Mono",
         code: "IBM Plex Mono",
       },
       colors: {
+        // lightMode: {
+        //   light: "#f5f1ea", // Warmer light color
+        //   lightgray: "#dcccb1", // Warmer light gray
+        //   gray: "#b09e8f", // Warmer gray
+        //   darkgray: "#735f52", // Warmer dark gray
+        //   dark: "#4a4138", // Warmer dark color
+        //   secondary: "#382c26", // Slightly warmer secondary color
+        //   tertiary: "#8c7d70", // Warmer tertiary color
+        //   highlight: "#f0e7d8", // Warmer highlight color
+        // },
+        // darkMode: {
+        //   light: "#2c2b2b", // Warmer light color
+        //   lightgray: "#5d5c5c", // Warmer light gray
+        //   gray: "#a67c69", // Warmer gray
+        //   darkgray: "#e4d8d3", // Warmer dark gray
+        //   dark: "#fff4ec", // Warmer dark color
+        //   secondary: "#f0e7d8", // Slightly warmer secondary color
+        //   tertiary: "#c5b8b0", // Warmer tertiary color
+        //   highlight: "rgba(191, 163, 141, 0.15)", // Warmer highlight color
+        // },
         lightMode: {
           light: "#faf8f8",
           lightgray: "#e5e5e5",
@@ -28,7 +50,7 @@ const config: QuartzConfig = {
           darkgray: "#4e4e4e",
           dark: "#2b2b2b",
           secondary: "#000",
-          tertiary: "#222",
+          tertiary: "#aaa",
           highlight: "#efefef",
         },
         darkMode: {
@@ -48,11 +70,11 @@ const config: QuartzConfig = {
     transformers: [
       Plugin.FrontMatter(),
       Plugin.TableOfContents(),
-      Plugin.CreatedModifiedDate({
-        // you can add 'git' here for last modified from Git
-        // if you do rely on git for dates, ensure defaultDateType is 'modified'
-        priority: ["frontmatter", "filesystem"],
-      }),
+      // Plugin.CreatedModifiedDate({
+      //   // you can add 'git' here for last modified from Git
+      //   // if you do rely on git for dates, ensure defaultDateType is 'modified'
+      //   priority: ["frontmatter", "filesystem"],
+      // }),
       Plugin.Latex({ renderEngine: "katex" }),
       Plugin.SyntaxHighlighting(),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
