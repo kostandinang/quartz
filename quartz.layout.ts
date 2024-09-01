@@ -28,6 +28,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
+    // Component.TagList(),
     Component.DesktopOnly(
       Component.Explorer({
         filterFn(node) {
@@ -38,13 +39,12 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   right: [
     Component.Graph({
-      globalGraph: {
-        zoom: true,
-      },
+      globalGraph: {},
       localGraph: {},
     }),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
+    // Component.RecentNotes(),
   ],
 }
 
