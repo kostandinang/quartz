@@ -36,7 +36,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(
       Component.Explorer({
         filterFn(node) {
-          return node.name !== "Resume"
+          return node.displayName !== "Resume"
         },
       }),
     ),
@@ -48,7 +48,6 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
-    // Component.RecentNotes(),
   ],
 }
 

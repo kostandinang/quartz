@@ -8,13 +8,14 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Kostandin's Blog",
+    pageTitle: "/Kostandin A.",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "umami",
       websiteId: "ce44df40-ffdd-44fa-bdb0-f54031f0f73c",
     },
+    locale: "en-US",
     baseUrl: "kostand.in",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
@@ -22,34 +23,33 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Avenir",
-        body: "Avenir",
-        // header: "Montserrat",
-        // body: "Montserrat",
-        // header: "IBM Plex Mono",
-        // body: "IBM Plex Mono",
+        header: "Lora",
+        body: "Lora",
+        title: "Lora",
         code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#f5f1ea", // Warmer light color
-          lightgray: "#dcccb1", // Warmer light gray
-          gray: "#b09e8f", // Warmer gray
-          darkgray: "#735f52", // Warmer dark gray
-          dark: "#4a4138", // Warmer dark color
-          secondary: "#382c26", // Slightly warmer secondary color
-          tertiary: "#8c7d70", // Warmer tertiary color
-          highlight: "#f0e7d8", // Warmer highlight color
+          light: "#faf8f5", // Softer, more neutral warm white
+          lightgray: "#e8ddd4", // Better contrast warm light gray
+          gray: "#a89080", // More balanced warm gray
+          darkgray: "#6b5b4f", // Improved contrast warm dark gray
+          dark: "#3d342b", // Richer, more readable dark brown
+          secondary: "#2c1810", // Deep warm brown for emphasis
+          tertiary: "#8b7355", // Refined warm tertiary
+          highlight: "#f5ede1", // Subtle warm highlight
+          textHighlight: "#fff2e6", // Warmer text highlight with better visibility
         },
         darkMode: {
-          light: "#2c2b2b", // Warmer light color
-          lightgray: "#5d5c5c", // Warmer light gray
-          gray: "#a67c69", // Warmer gray
-          darkgray: "#e4d8d3", // Warmer dark gray
-          dark: "#fff4ec", // Warmer dark color
-          secondary: "#f0e7d8", // Slightly warmer secondary color
-          tertiary: "#c5b8b0", // Warmer tertiary color
-          highlight: "rgba(191, 163, 141, 0.15)", // Warmer highlight color
+          light: "#1a1918", // Deeper, warmer dark background
+          lightgray: "#2f2d2c", // Better contrast warm dark gray
+          gray: "#b8a082", // Warmer, more vibrant gray
+          darkgray: "#d4c4b0", // Softer warm light text
+          dark: "#f7f0e8", // Warm white for primary text
+          secondary: "#e8dcc6", // Warm secondary text
+          tertiary: "#c9b896", // Balanced warm tertiary
+          highlight: "rgba(184, 160, 130, 0.2)", // More visible warm highlight
+          textHighlight: "#fff2e6", // Consistent warm text highlight
         },
         // lightMode: {
         //   light: "#faf8f8",
@@ -60,6 +60,7 @@ const config: QuartzConfig = {
         //   secondary: "#000",
         //   tertiary: "#aaa",
         //   highlight: "#efefef",
+        //   textHighlight: "#efefef",
         // },
         // darkMode: {
         //   light: "#161618",
@@ -70,6 +71,7 @@ const config: QuartzConfig = {
         //   secondary: "#efefef",
         //   tertiary: "#afafaf",
         //   highlight: "rgba(143, 159, 169, 0.15)",
+        //   textHighlight: "#efefef",
         // },
       },
     },

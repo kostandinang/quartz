@@ -1,19 +1,17 @@
 ---
-title: About Me
+title: About me
 description: My bio
-date:
-tags: []
+date: 
+tags: 
 cssclasses:
   - no-meta
 ---
 
-I’m Kostandin, a software engineer and tech enthusiast from Tirana, Albania. My passions lie in startups focused on:
+A software engineer based in Tirana, Albania.
 
-- Productivity
-- Developer Tools
-- Artificial Intelligence
+I’m passionate about software, startups, and productivity.
 
-When I’m not working, I enjoy reading and making music
+When I’m not working, I enjoy reading and making music.
 
 %% ### I embrace:
 
@@ -29,8 +27,6 @@ You can reach out to me via my [personal email](mailto:kostandinangjellari@gmail
 %% ### Stuff I work on
 
 ... %%
-
----
 
 <!-- More about me:
 - [[Resume]] -->
