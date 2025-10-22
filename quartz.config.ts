@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "/Kostandin A.",
+    pageTitle: "/Kostandin Ang.",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -23,9 +23,9 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Lora",
-        body: "Lora",
-        title: "Lora",
+        header: "Cormorant Garamond",
+        body: "Cormorant Garamond",
+        title: "Cormorant Garamond",
         code: "IBM Plex Mono",
       },
       colors: {
@@ -38,7 +38,7 @@ const config: QuartzConfig = {
           secondary: "#2c1810", // Deep warm brown for emphasis
           tertiary: "#8b7355", // Refined warm tertiary
           highlight: "#f5ede1", // Subtle warm highlight
-          textHighlight: "#fff2e6", // Warmer text highlight with better visibility
+          textHighlight: "#f5ede1", // Match tag background color
         },
         darkMode: {
           light: "#1a1918", // Deeper, warmer dark background
@@ -49,7 +49,7 @@ const config: QuartzConfig = {
           secondary: "#e8dcc6", // Warm secondary text
           tertiary: "#c9b896", // Balanced warm tertiary
           highlight: "rgba(184, 160, 130, 0.2)", // More visible warm highlight
-          textHighlight: "#fff2e6", // Consistent warm text highlight
+          textHighlight: "rgba(184, 160, 130, 0.2)", // Match tag background color
         },
         // lightMode: {
         //   light: "#faf8f8",
