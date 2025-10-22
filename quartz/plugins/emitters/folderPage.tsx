@@ -66,16 +66,23 @@ function computeFolderInfo(
 ): Record<SimpleSlug, ProcessedContent> {
   // Create default folder descriptions
   const folderInfo: Record<SimpleSlug, ProcessedContent> = Object.fromEntries(
-    [...folders].map((folder) => [
-      folder,
-      defaultProcessedContent({
-        slug: joinSegments(folder, "index") as FullSlug,
-        frontmatter: {
-          title: `${i18n(locale).pages.folderContent.folder}: ${folder}`,
-          tags: [],
-        },
-      }),
-    ]),
+    [...folders].map((folder) => {
+      // Capitalize the folder name for display while keeping the slug lowercase
+      const folderDisplayName = folder.split('/').map(segment => 
+        segment.charAt(0).toUpperCase() + segment.slice(1)
+      ).join('/')
+      
+      return [
+        folder,
+        defaultProcessedContent({
+          slug: joinSegments(folder, "index") as FullSlug,
+          frontmatter: {
+            title: `${i18n(locale).pages.folderContent.folder}: ${folderDisplayName}`,
+            tags: [],
+          },
+        }),
+      ]
+    }),
   )
 
   // Update with actual content if available
