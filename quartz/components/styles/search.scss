@@ -39,6 +39,25 @@
         transition: stroke 0.5s ease;
       }
     }
+
+    & .shortcut {
+      margin-left: auto;
+      padding: 0.2rem 0.4rem;
+      font-size: 0.7rem;
+      color: var(--secondary);
+      background-color: var(--highlight);
+      border: 1px solid var(--lightgray);
+      border-radius: 4px;
+      font-family: inherit;
+      font-weight: $semiBoldWeight;
+      line-height: 1;
+      opacity: 0.8;
+      transition: opacity 0.2s ease;
+    }
+    
+    &:hover .shortcut {
+      opacity: 1;
+    }
   }
 
   & > .search-container {

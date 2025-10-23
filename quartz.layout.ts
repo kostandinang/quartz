@@ -33,13 +33,9 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.Darkmode(),
     // Component.TagList(),
-    Component.DesktopOnly(
-      Component.Explorer({
-        filterFn(node) {
-          return node.displayName !== "Resume"
-        },
-      }),
-    ),
+    Component.Explorer({
+      folderDefaultState: "open",
+    }),
   ],
   right: [
     Component.Graph({

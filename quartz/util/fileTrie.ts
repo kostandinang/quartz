@@ -29,9 +29,14 @@ export class FileTrieNode<T extends FileTrieData = ContentDetails> {
 
   get displayName(): string {
     const nonIndexTitle = this.data?.title === "index" ? undefined : this.data?.title
-    return (
-      this.displayNameOverride ?? nonIndexTitle ?? this.fileSegmentHint ?? this.slugSegment ?? ""
-    )
+    const baseName = this.displayNameOverride ?? nonIndexTitle ?? this.fileSegmentHint ?? this.slugSegment ?? ""
+    
+    // For folders, capitalize the first letter of the display name
+    if (this.isFolder && baseName && !this.displayNameOverride && !nonIndexTitle) {
+      return baseName.charAt(0).toUpperCase() + baseName.slice(1)
+    }
+    
+    return baseName
   }
 
   set displayName(name: string) {

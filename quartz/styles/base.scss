@@ -74,21 +74,26 @@ strong {
 }
 
 a {
-  font-weight: $semiBoldWeight;
+  font-weight: #{$semiBoldWeight};
   text-decoration: none;
   transition: color 0.2s ease;
-  color: var(--secondary);
+  color: var(--primary);
 
   &:hover {
     color: var(--tertiary);
   }
 
   &.internal {
-    text-decoration: none;
-    background-color: var(--highlight);
-    padding: 0 0.1rem;
-    border-radius: 5px;
+    text-decoration: underline;
+    text-decoration-color: var(--primary);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
     line-height: 1.4rem;
+
+    &:hover {
+      text-decoration-color: currentColor;
+      text-decoration-thickness: 2px;
+    }
 
     &.broken {
       color: var(--secondary);
