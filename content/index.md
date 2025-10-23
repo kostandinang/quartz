@@ -1,20 +1,22 @@
 ---
-title: Welcome!
+title: " "
 ---
 
-Hey, I’m Kostandin—a software engineer and product maker.
+Hey there, 👋
 
-This is [[My digital garden/index|my digital garden]], where I cultivate and share my musings on [software engineering](/tags/engineering), [product craftsmanship](/tags/products) and the [pursuit of self-mastery](/tags/mastery).
+I'm Kostandin, a software engineer and builder.
 
-I believe in the power of [[Interconnecting knowledge|connected ideas]], and this is where I explore and share what I’m learning.
+This is my [[digital-garden/index|my digital garden]], where I write about [software](/tags/engineering), [product craftsmanship](/tags/products) and pursuit of [self-mastery](/tags/mastery).
 
-### -> Get Started
+I think ideas [[connecting-knowledge|thrive through connection]], [[why|this space]] is where I explore, construct, and share my learnings.
+
+### Get Started
 
 - [[About]]
-- [[private/Projects/index|Projects]]
-- [[private/Essays/index|Essays]]
+- [[private/projects 1/index|Projects]]
+- [[essays/index|Essays]]
 
-> [!warning] This site is a work in progress
+> [!warning] Work in Progress
 
 Note:
 _As this will be an ever-evolving space, make sure to check the graph for new nodes._

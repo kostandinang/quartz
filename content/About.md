@@ -1,17 +1,22 @@
 ---
-title: About me
-description: My bio
-date: 
-tags: 
+title: About
+description: A short bio of Kostandin
+date:
+tags:
 cssclasses:
   - no-meta
 ---
+Kostandin here,
 
 A software engineer based in Tirana, Albania.
 
-I’m passionate about software, startups, and productivity.
+Passionate about software, startups, and productivity.
+
+Currently working as an engineer building AI products.
 
 When I’m not working, I enjoy reading and making music.
+
+I embrace minimalism, creativity and growth.
 
 %% ### I embrace:
 
@@ -22,7 +27,7 @@ When I’m not working, I enjoy reading and making music.
 - **Continuous Learning**
   - Dedicated to lifelong learning, I’m always eager to expand my knowledge and skills—whether it’s exploring new technologies or getting lost in a good concept. %%
 
-You can reach out to me via my [personal email](mailto:kostandinangjellari@gmail.com) or [[Contacts|the links here]].
+Contact [[contact|here]].
 
 %% ### Stuff I work on
 
