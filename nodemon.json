@@ -1,0 +1,29 @@
+{
+  "watch": [
+    "quartz/**/*.ts",
+    "quartz/**/*.js",
+    "quartz/**/*.tsx",
+    "quartz/**/*.scss",
+    "quartz.config.ts",
+    "quartz.layout.ts",
+    "package.json"
+  ],
+  "ext": "ts,tsx,js,scss,json",
+  "ignore": [
+    "quartz/.quartz-cache/**",
+    "public/**",
+    "node_modules/**",
+    "content/**",
+    ".quartz-cache/**",
+    "tsconfig.tsbuildinfo"
+  ],
+  "delay": 1000,
+  "execMap": {
+    "": "node"
+  },
+  "restartable": "rs",
+  "verbose": false,
+  "events": {
+    "restart": "echo '\\n🔄 Restarting due to changes...\\n'"
+  }
+}
