@@ -1,6 +1,7 @@
 ---
 tags:
   - essay
+  - knowledge
 title: Connecting knowledge
 ---
 
@@ -12,6 +13,6 @@ The same applies to how we learn, reading fills the mind, writing clarifies it, 
 
 For knowledge workers, this matters. We don’t get paid to recall facts. We get paid to interpret them, to see patterns, to connect old ideas in new ways.
 
-For engineers and builders, this means turning scattered information, user behavior, code or business goals, into insight. A connected system of knowledge reveals how small design choices ripple through performance, or how a single user frustration ties back to system architecture.
+For engineers and builders, that means turning scattered data, user behavior, or business goals into insight. A connected knowledge system shows how small design choices ripple through performance, or how a user frustration traces back to architecture.
 
-In the end, connecting knowledge is how we think better. It’s how we move from information to insight. From doing work to doing meaningful work. Any system that facilitates this should be a tool in our belt.
+In the end, connecting knowledge is how we think better. How we move from information to insight. From work to meaningful work. Any system that helps us do that is worth keeping close.

@@ -4,10 +4,10 @@ draft: false
 ---
 
 ### Kostandin Angjellari
-*Full-Stack Engineer & ex-Founder | Nodejs | React | AI*
 
-10 years building across SaaS, Fintech, Multimedia, and lately AI.
-Co-founded Quinvio, an AI video presentation platform that grew to 25K users and 500+ paying customers.
+_Full-Stack Engineer & Founder | Nodejs | React | AI_
+
+10 years building across SaaS, Fintech, Multimedia, and lately AI. Co-founded Quinvio, an AI video presentation platform that grew to 25K users and 500+ paying customers.
 Love leading engineering teams, bridging product and code, and building from 0 to 1.
 
 ### Work Experience
@@ -56,25 +56,32 @@ Love leading engineering teams, bridging product and code, and building from 0 t
 
 ### Skills
 
-*Languages*: 
+_Languages_:
+
 - TypeScript/JavaScript, Golang, Python
 
-*Frameworks*:
+_Frameworks_:
+
 - Node.js, React, Next.js, Remix, GraphQL
 
-*Databases*:
+_Databases_:
+
 - PostgreSQL, MongoDB, Redis
 
-*Messaging*:
+_Messaging_:
+
 - RabbitMQ, BullMQ, Temporal
 
-*Cloud/DevOps*:
+_Cloud/DevOps_:
+
 - AWS, GCP, Docker, Terraform, Kubernetes
 
-*AI/ML*:
+_AI/ML_:
+
 - LangChain, Qdrant, LLMs, AI pipelines & RAG
 
-*Other:* 
+_Other:_
+
 - Engineering leadership, Product ownership, Startups
 
 ### Education
