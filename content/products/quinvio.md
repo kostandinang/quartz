@@ -9,11 +9,11 @@ Video Presentations with AI
 
 > [!error] Status: Defunct
 
-[Web](https://www.quinv.io) | [Email](hey@quinv.io)
+[Web](https://www.quinv.io)
 
-Ani and I bootstrapped Quinvio AI in late 2022 with a simple goal, to make creating video presentations effortless.
+Ani and I bootstrapped Quinvio AI in late 2022 with a simple goal: to make creating video presentations effortless.
 
-Our idea was to build a web platform that transforms your content into video presentations using AI, no filming, no expensive production, just AI avatars, voices, and automated styling.
+Our idea was to build a web platform that transforms content into video presentations using AI, no filming, no expensive production, just AI avatars, voices, and automated styling.
 
 ### The problem
 
@@ -67,4 +67,5 @@ Quinvio proved something I'd suspected: when you automate tedious work, people p
 
 ---
 
-The acronym? Quick Interactive Visual Information Output. Yes, we made it fit.
+> But what did Quinvio mean?
+> Quick Interactive Visual Information Output.
