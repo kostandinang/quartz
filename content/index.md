@@ -12,9 +12,9 @@ I think ideas [[connecting-knowledge|thrive through connection]], [[why|this spa
 
 ### Get Started
 
-- [[about|About]]
-- [[products|Products]]
-- [[essays/index|Essays]]
+- [[/about|About]]
+- [[/products|Products]]
+- [[/essays/index|Essays]]
 
 > [!warning] Work in Progress
 
