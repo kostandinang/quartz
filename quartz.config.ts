@@ -9,7 +9,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "/Kostandin Ang.",
-    enableSPA: true,
+    enableSPA: false,
     enablePopovers: true,
     analytics: {
       provider: "umami",
@@ -23,6 +23,9 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
+        // header: "DM Mono",
+        // body: "DM Mono",
+        // title: "DM Mono",
         header: "Cormorant Garamond",
         body: "Cormorant Garamond",
         title: "Cormorant Garamond",
