@@ -1,6 +1,6 @@
 ---
 title: About
-slug: about
+permalink: about
 description: A short bio of Kostandin
 cssclasses:
   - no-meta
