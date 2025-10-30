@@ -43,9 +43,13 @@ The tech stack: ffmpeg for video processing, LLMs for content generation, Preact
 
 We built the MVP in less than two months. Launched in February 2023 [on Product Hunt](https://www.producthunt.com/posts/quinvio-ai?utm_source=other&utm_medium=social).
 
-Three months later: 12,000+ users. Thousands of video minutes generated. 50%+ monthly revenue growth.
+Three months later: 12K+ users. Thousands of video minutes generated. 50%+ monthly revenue growth.
+
+Six months later: 25K users. 500+ paying customers. 
 
 We spent zero on marketing. 70% of traffic was organic. [AI influencers](https://www.linkedin.com/posts/genai-works_top-ai-tools-activity-7048939213475495937-_ot1?utm_source=share&utm_medium=member_desktop&rcm=ACoAABLWSj0By4nW820tJAfV2uK0SBjacjYTho8) featured us. [Tool aggregators](https://www.futuretools.io/tools/quinvio-ai) listed us. The timing was right, everyone wanted AI tools. Especially marketers.
+
+Then growth stalled.
 
 ### The lessons
 
@@ -54,6 +58,8 @@ Building fast matters. We validated the idea before iterating it. MVP first, fea
 The market was bigger than we thought. Generative video was growing at 18.5% annually. Online presentations at 9.5%. We positioned for startups and nailed specific use cases instead of trying to be everything.
 
 Product-market fit shows up in the numbers. When 70% of your traffic is organic and revenue grows 50% month-over-month without ads, you've hit something.
+
+Entering a hyper-competitive and capital intensive space as bootstrapped, may not be the best of ideas.
 
 ### The challenges
 

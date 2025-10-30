@@ -2,13 +2,15 @@
 title: " "
 ---
 
-Hey there, 👋
+Hey 👋
 
-I'm Kostandin, a software engineer and builder.
+I'm Kostandin, a software engineer.
 
-This is my [[digital-garden/index|my digital garden]], where I write about [software](/tags/engineering), [product craftsmanship](/tags/products) and pursuit of [self-mastery](/tags/mastery).
+This is my [[why|my digital garden]], a corner where I write about [building](/products/index), [exploring](/tags/ideas) and [refining my craft](/tags/mastery).
 
-I think ideas [[connecting-knowledge|thrive through connection]], [[why|this space]] is where I explore, construct, and share my learnings.
+I think ideas grow better when [[connecting-knowledge|shared and connected]]. 
+
+[[digital-garden/index|This space]] is where I explore, construct, and share my learnings in public.
 
 ### Get Started
 
@@ -19,4 +21,4 @@ I think ideas [[connecting-knowledge|thrive through connection]], [[why|this spa
 > [!warning] Work in Progress
 
 Note:
-_As this will be an ever-evolving space, make sure to check the graph for new nodes._
+_As this will be an ever-evolving space, make sure to check the pages or graph on the right for new nodes._

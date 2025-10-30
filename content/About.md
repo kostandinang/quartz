@@ -8,11 +8,11 @@ cssclasses:
 
 Kostandin here,
 
-A software engineer based in Tirana, Albania.
+I write software in [Tirana, Albania](https://www.visit-tirana.com/explore-tirana/good-to-know/).
 
-Passionate about software, startups, and productivity.
+Passionate about coding, startups, and productivity.
 
-Currently working as an engineer building AI products.
+Currently exploring and building AI products.
 
 When I'm not working, I enjoy reading and making music.
 

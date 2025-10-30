@@ -1,14 +1,16 @@
 ---
 title: CloudMeet
 description: Video conferencing SaaS
-tags: 
+tags:
   - product
+draft: false
 ---
-Video conferencing SaaS
+
+Embeddeable video conferencing SaaS
 
 > [!error] Status: Defunct
 
-CloudMeet is a SaaS video conferencing platform that originated as a spin-off from [Ritech](https://www.ritech.co), where I served as a senior engineer for three years.
+CloudMeet is a SaaS video conferencing platform that originated late 2020 as a spin-off from [Ritech](https://www.ritech.co), where I served as a senior engineer for three years.
 
 ## The beginning
 
@@ -23,6 +25,7 @@ We iterated with the designer. Our job was to craft the front-end and the video 
 CloudMeet became a multi-tenant SaaS with three distinct roles: Host, Moderator, and Attendees. The app was designed to be integrated into client dashboards.
 
 We had to handle three main use cases:
+
 - Small rooms up to 6 people using P2P
 - Large rooms up to 100 people using MCU
 - Session streaming
@@ -42,6 +45,7 @@ And we had to keep costs low. Server resources aren't free, especially when you'
 ## The architecture
 
 We split it into six components. Each developed and tested individually.
+
 - **API** - The backend. Built on .NET using Domain-Driven Design.
 - **Client** - An iframe testing environment where we could prototype integrations.
 - **Infrastructure** - Terraform modules. Everything deployed on AWS: Cognito, S3, SQS, ECS Fargate, RDS.
@@ -70,12 +74,10 @@ We ended up using MCU for our large rooms. The tradeoff was worth it. More serve
 
 ## The lessons
 
-This was intrapreneurship. We had the backing of Ritech but the speed of a startup. The pressure to ship was real. The need to get it right was real.
+This was intrapreneurship. We had the backing of the company, and the speed of a startup. The pressure to ship was real. The need to get it right was real.
 
-I learned that architecture matters most when you're moving fast. We built six distinct components. If we'd made them all talk to each other directly, we'd have been stuck. The boundaries let us move and work on different pieces independently.
+Architecture matters most when you're moving fast. We built six distinct components. If we'd made them all talk to each other directly, we'd have been stuck. The boundaries let us move and work on different pieces independently.
 
-I learned that WebRTC is powerful but unforgiving. You can't fake latency. You can't hide bad network conditions. You either build it right or users feel every millisecond of lag.
+WebRTC is powerful but unforgiving. You can't fake latency. You can't hide bad network conditions. You either build it right or users feel every millisecond of lag.
 
-I learned that "capable of hosting 100 users concurrently" sounds simple until you're actually doing it. Then you're optimizing stream forwarding, managing server resources, and testing under load.
-
-But mostly I learned that the best projects are the ones where you're figuring it out as you go. Where you're of the first members. Where the architecture is still being sketched on whiteboards.
+Learned that "capable of hosting 100 users concurrently" sounds simple until you're actually doing it. Then you're optimizing stream forwarding, managing server resources, and testing under load.

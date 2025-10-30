@@ -17,9 +17,9 @@ Love leading engineering teams, bridging product and code, and craft from 0 to 1
 - Built end-to-end features in a [ShapeUp](https://basecamp.com/shapeup) workflow as the platform was scaling.
 - Contributed on evolving the stack with additions such as Postgres, Drizzle, Remix and Temporal.
 
-**Product Engineer – [Cofactory](https://www.quinv.io/) | Sep 2023 – Mar 2024**
+**Product Engineer – [Cofactory](https://cofactory.ai/) | Sep 2023 – Mar 2024**
 
-- Led a small team of 3 full-stack engineers on building RAG with LangChain, Next.js, Qdrant, Postgres.
+- Led a team of 3 full-stack engineers on building RAG with LangChain, Next.js, Qdrant, Postgres.
 - Worked closely with the founders/PO to take AI products quickly to market.
 
 **Co-founder – [Quinvio](https://www.quinv.io/) | Mar 2021 – Jul 2024**
@@ -46,8 +46,8 @@ Love leading engineering teams, bridging product and code, and craft from 0 to 1
 
 **Engineering Lead – [Prius Solutions](https://priussolution.com/) | May 2015 – May 2016**
 
-- Led 5-person team, delivering B2B platforms in Java EE, AngularJS, PostgreSQL.
-- Shipped 5 SaaS and B2C products for regional markets.
+- Led a team of 5, delivering B2B platforms in Java EE, AngularJS, PostgreSQL.
+- Shipped 5 SaaS and B2C products for local and regional market.
 
 **Full-Stack Developer – Techmobile | May 2014 – May 2015**
 
