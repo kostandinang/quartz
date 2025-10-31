@@ -230,7 +230,7 @@ a {
       grid-area: grid-sidebar-left;
       flex-direction: column;
       @media all and ($mobile) {
-        gap: 0;
+        gap: 0.5rem;
         align-items: center;
         position: initial;
         display: flex;
