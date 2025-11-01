@@ -7,7 +7,7 @@ title: Connecting knowledge
 
 Knowledge doesn’t grow linearly. It branches, loops, overlaps. Progress rarely feels tidy, because insight rarely is. The best ideas often emerge from unexpected connections between things that, at first, seem unrelated.
 
-One of the few systems that embraces this reality is [Zettelkasten](https://zettelkasten.de/introduction/). It treats notes not as archives, but as living parts of a thinking system. Each note captures one idea and connects to others. Over time, those links form a network, a reflection of how knowledge actually grows.
+One of the few systems that embraces this reality is [[zettelkasten|Zettelkasten]]. It treats notes not as archives, but as living parts of a thinking system. Each note captures one idea and connects to others. Over time, those links form a network, a reflection of how knowledge actually grows.
 
 The same pattern appears in how we learn: reading fills the mind, writing clarifies it, teaching tests it, and building grounds it. Each cycle turns abstraction into understanding.
 

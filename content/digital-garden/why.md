@@ -2,36 +2,43 @@
 title: Why?
 date: 2025-03-22
 tags:
-  - writing
+  - garden
 ---
 
-Most blogs are finished pieces, snapshots of what one thought at a moment in time. But ideas grow and connect. A digital garden lets them stay alive and evolve.
+Most blogs capture a single moment, a finished thought, frozen in time.
 
-### What’s a digital garden?
+But ideas grow. They branch, connect, and evolve.
 
-A place to think in public. Notes or essays could live here - not as finished pieces, but as evolving thoughts. Each one links to others. Over time, they form a web of connected ideas.
+A digital garden lets them stay alive.
 
-### How I work?
+**What’s a digital garden?**
 
-I use a Zettelkasten approach. One idea per note. Notes link to related notes. I revisit and refine them as I learn more.
+It’s a space to think in public, where notes grow instead of being published and forgotten.
+Each note links to others, forming a living network of ideas that matures over time.
+
+### 
+
+I follow a [[zettelkasten|Zettelkasten]] approach: one idea per note, linked to related ones, refined as I learn.
+
+Each note has a growth stage:
+- Seed 🌱 - early idea, needs clarification.
+- Sprout 🌿 - being expanded or connected.
+- Bloom 🌳 - refined and ready to use.
 
 Simple. Connected. Always growing.
 
-### What’s here?
-
+**What you’ll find here**
 - Learnings on software engineering
 - How I craft products
 - On learning and self-mastery
 - Highlights from books and explorations
 
+**Start Reading ->**
+- [[ai-agents-core-concepts|AI Agents]]
+- [[zettelkasten|Zettelkasten]]
+
 ---
 
-This garden will change over time, so feel free to explore and check back for updates.
+This garden will change over time - wander, explore, and return later.
 
-The **Graph View** (on the sidebar) is a great way to visualize how these ideas connect.
-
-%% ### Related Notes
-
-- [Zettelkasten: A Method for Thought Development](#)
-- [Atomic Notes: The Power of Small Ideas](#)
-- [The Role of Constraints in Software Engineering](#) %%
+You can also open the **Graph View** on the sidebar to see how everything connects.
