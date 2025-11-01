@@ -46,7 +46,12 @@ const defaultOptions: Options = {
       return -1
     }
   },
-  filterFn: (node) => node.slugSegment !== "tags",
+  filterFn: (node) => {
+    // Filter out tags folder and files marked as not navigable
+    if (node.slugSegment === "tags") return false
+    if (node.data && node.data.navigable === false) return false
+    return true
+  },
   order: ["filter", "map", "sort"],
 }
 
