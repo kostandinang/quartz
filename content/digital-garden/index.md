@@ -1,7 +1,7 @@
 ---
 title: Digital Garden
+permalink: dg
 ---
-
 
 The items that I will be writing here are either:
 
