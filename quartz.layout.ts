@@ -24,6 +24,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta({
       showReadingTime: false,
+      showComma: false,
     }),
     Component.TagList(),
   ],
@@ -41,7 +42,8 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer({
-      folderDefaultState: "open",
+      folderDefaultState: "collapsed",
+      folderClickBehavior: "link"
     }),
   ],
   right: [
@@ -69,7 +71,10 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      folderDefaultState: "collapsed",
+      folderClickBehavior: "link",
+    }),
   ],
   right: [],
 }
