@@ -1,5 +1,5 @@
 ---
-title: Why?
+title: Why a Digital Garden?
 date: 2025-03-22
 tags:
   - garden
@@ -11,14 +11,11 @@ But ideas grow. They branch, connect, and evolve.
 
 A digital garden lets them stay alive.
 
-**What’s a digital garden?**
-
-It’s a space to think in public, where notes grow instead of being published and forgotten.
-Each note links to others, forming a living network of ideas that matures over time.
+It’s a space to think in public. Each note links to others, forming a living network of ideas that matures over time.
 
 ### 
 
-I follow a [[zettelkasten|Zettelkasten]] approach: one idea per note, linked to related ones, refined as I learn.
+I follow a [[zettelkasten|Zettelkasten]] approach, and refine as I learn more.
 
 Each note has a growth stage:
 - Seed 🌱 - early idea, needs clarification.

@@ -4,6 +4,7 @@ description: Video conferencing SaaS
 tags:
   - product
 draft: false
+navigable: false
 ---
 
 Embeddeable video conferencing SaaS
@@ -16,16 +17,14 @@ CloudMeet is a SaaS video conferencing platform that originated late 2020 as a s
 
 One client needed video conferencing integrated into their dashboards. Not standalone tools. Not another Zoom clone. Something they could embed into their own products for custom presentation workflows.
 
-I worked with two other senior engineers who were the best at their craft. Our mission was simple: spin up a video conferencing platform as an intrapreneurship inside Ritech. Serve this client first. Get to market quickly. Make it work. Expand beyond that use case.
+I worked with two other senior engineers who were the best at their craft. Our mission was simple: spin up a video conferencing platform as an intrapreneurship inside the company. Serve this client first. Get to market quickly. Make it work. Expand beyond that use case.
 
 We iterated with the designer. Our job was to craft the front-end and the video service architecture in record time.
 
 ## The result
-
-CloudMeet became a multi-tenant SaaS with three distinct roles: Host, Moderator, and Attendees. The app was designed to be integrated into client dashboards.
+CloudMeet started a multi-tenant SaaS with three distinct roles: Host, Moderator, and Attendees. The app was designed to be integrated into client dashboards.
 
 We had to handle three main use cases:
-
 - Small rooms up to 6 people using P2P
 - Large rooms up to 100 people using MCU
 - Session streaming

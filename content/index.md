@@ -6,7 +6,7 @@ Hey 👋
 
 I'm Kostandin, a software engineer.
 
-This is my [[why|my digital garden]], a corner where I write about [building](/products/index), [exploring](/tags/ideas) and [refining my craft](/tags/mastery).
+This is my [[why|my digital garden]], where I talk about [building](/products/index), [exploring](/tags/ideas) and [refining my craft](/tags/mastery).
 
 I think ideas grow better when [[connecting-knowledge|shared and connected]].
 
@@ -15,7 +15,7 @@ I think ideas grow better when [[connecting-knowledge|shared and connected]].
 ### Get Started
 
 - [[/about|About]]
-- [[/products|Products]]
+- [[/products/index|Products]]
 - [[/essays/index|Essays]]
 
 > [!warning] Work in Progress

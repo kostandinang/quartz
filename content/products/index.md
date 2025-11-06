@@ -12,8 +12,8 @@ Lately, I’ve been drawn to B2C, Prosumer, and micro SaaS products - simple too
 
 ### Right now, I’m exploring ideas like:
 
-- [[products/zettel|Zettel]] - Constructive knowledge with AI
-- [[products/findcast|FindCast]] - Recall what was said on a podcast
+- [[orbs/index|Orbs]] - Small, focused apps with AI
+%% [[products/zettel|Zettel]] - Constructive knowledge with AI %%
 
 ### Ventures from the past:
 

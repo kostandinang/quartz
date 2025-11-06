@@ -38,6 +38,9 @@ This is a map of concepts behind AI agents.
 - [[langgraph-and-agent-frameworks|LangGraph and Agent Frameworks]]
 - [[agent-evaluation-and-monitoring|Agent Evaluation and Monitoring]]
 
+
+# References
+- https://huyenchip.com/2025/01/07/agents.html
 ---
 
 > _Each note is atomic. One concept, fully explained, connected to related ideas. Start anywhere. Follow the links. Build understanding gradually._

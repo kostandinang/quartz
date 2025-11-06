@@ -51,6 +51,12 @@ We spent zero on marketing. 70% of traffic was organic. [AI influencers](https:/
 
 Then growth stalled.
 
+### The challenges
+
+We were a team of two. Both engineers. Both startup enthusiasts. But video processing at scale is brutal. ffmpeg is powerful but unforgiving cost-wise. Managing AI API costs while keeping subscriptions affordable was a constant balance.
+
+The interactive video editor was our differentiator, built on web stories with embeddable widgets. That part took longer than expected. Every browser handles video differently. Edge cases everywhere.
+
 ### The lessons
 
 Building fast matters. We validated the idea before iterating it. MVP first, features later based on real user feedback.
@@ -61,12 +67,6 @@ Product-market fit shows up in the numbers. When 70% of your traffic is organic 
 
 Entering a hyper-competitive and capital intensive space as bootstrapped, may not be the best of ideas.
 
-### The challenges
-
-We were a team of two. Both engineers. Both startup enthusiasts. But video processing at scale is brutal. ffmpeg is powerful but unforgiving cost-wise. Managing AI API costs while keeping subscriptions affordable was a constant balance.
-
-The interactive video editor was our differentiator, built on web stories with embeddable widgets. That part took longer than expected. Every browser handles video differently. Edge cases everywhere.
-
 ### The takeway
 
 Quinvio proved something I'd suspected: when you automate tedious work, people pay for it. Not because the AI is perfect. Because it saves them time they'd rather spend elsewhere.
@@ -74,4 +74,4 @@ Quinvio proved something I'd suspected: when you automate tedious work, people p
 ---
 
 > But what did Quinvio mean?
-> Quick Interactive Visual Information Output.
+> **Qu**ick **In**teractive **V**isual **I**nformation **O**utput.

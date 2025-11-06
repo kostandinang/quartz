@@ -1,5 +1,6 @@
 ---
 title: Zettelkasten
+stage: sprout
 tags:
   - zettelkasten
 ---
