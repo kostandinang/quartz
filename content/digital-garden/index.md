@@ -11,6 +11,7 @@ The items that I will be writing here are either:
 
 **Start Reading ->**
 - [[ai-agents-core-concepts|AI Agents]]
+- [[transformers-architecture|Transformers Architecture]]
 - [[zettelkasten|Zettelkasten]]
 
 > [!warning] This page is a work in progress ...
